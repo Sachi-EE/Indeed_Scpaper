@@ -73,7 +73,7 @@ def scrape(url_lst):
     data_pandas = pd.DataFrame(data)
     print(data_pandas)
   
- #Call the scrape function with the create_url as the input function that has jobs & location as input parameters   
+#Call the scrape function with the create_url as the input function that has jobs & location as input parameters   
 scrape(create_url(jobs, location))
 
 
